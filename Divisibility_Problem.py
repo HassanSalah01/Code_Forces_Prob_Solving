@@ -1,9 +1,9 @@
-# def div(x,y):
-#     count = 0
-#     while(x%y!=0):
-#         count+=1
-#         x+=1
-#     return count
+def div(x,y):
+    count = 0
+    while(x%y!=0):
+        count+=1
+        x+=1
+    return count
 
 def div(x,y):
     count = 0 
@@ -17,5 +17,4 @@ def div(x,y):
         print(x)
     return count
 
-print(div(10,4))
 
