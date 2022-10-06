@@ -5,9 +5,13 @@ def main():
     prob = 0
     x = 0
     all = int(inp[0])
+    print(time)
+    time = time-(time%5)
+    print(time,"real")
     while(result < time):
             x+=1
             result = result+(5*x)
+            print(result)
             prob+=1
     if(prob>all):
         print(all)
