@@ -1,20 +1,9 @@
-def diff(x,y) :
-    if(x>y):
-        return x-y
-    else:
-        return y-x
+def main():
 
-def main() :
     x = input().split(" ")
     for i in range(len(x)):
         x[i]= int(x[i])
-    sum = 0
-    for i in x:
-        sum+=i
-    sum = sum/len(x)
-    sum2 = 0 
-    for i in x :
-        sum2 +=diff(i , sum)
-    print(int(sum2))
+    sum =int((x[1]-x[0])+(x[2]-x[1]))
+    print(sum)
 
 main()
