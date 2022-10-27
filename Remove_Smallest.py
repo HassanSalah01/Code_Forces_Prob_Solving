@@ -10,5 +10,15 @@ def solution(arr):
     print("Yes")
 
 
+def main():
+    x = int(input())
+    for i in range(x):
+        x = input()
+        x=input().split(" ")
+        for i in range(len(x)):
+            x[i]=int(x[i])
+        solution(x)
 
 
+
+main()
