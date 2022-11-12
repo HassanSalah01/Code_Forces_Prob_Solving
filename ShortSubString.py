@@ -1,14 +1,15 @@
-x = "abbaac"
-arr = []
-top = -1
-newstr=""
-print(len(arr))
-for i in x:
-    if(len(arr)==0):
-        arr.append[i]
-        top+=1
-    else:
-        if(i==arr[0]):
-            
+def subString(str):
+    str2 = ""
+    str2 +=str[0]
+    for i in range(1,len(str),2):
+        str2+=str[i]
+    print(str2)
 
+def main():
+    x = int(input())
+    while(x):
+        inp =input()
+        subString(inp)
+        x-=1
 
+main()
